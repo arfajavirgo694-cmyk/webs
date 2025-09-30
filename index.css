@@ -1,0 +1,175 @@
+CSS
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(13,1fr);
+ 
+}
+.box{
+    border: 1px solid rgb(183, 141, 141);
+ 
+}
+#item-1{
+    background-color: green;
+    grid-column: 1/5 span;
+    grid-row: 1/5 span;
+    padding: 80px;
+}
+#item-2{
+    grid-column: 6/1 span;
+    padding: 15px;
+}
+#item-6{
+    /* grid-column: 6/1 span; */
+    padding: 15px;
+}
+#item-9{
+    /* grid-column: 6/1 span; */
+    padding: 15px;
+}
+#item-12{
+    /* grid-column: 6/1 span; */
+    padding: 15px;
+}
+#item-15{
+    /* grid-column: 6/1 span; */
+    padding: 15px;
+}
+#item-18{
+    /* grid-column: 6/1 span; */
+    padding: 15px;
+}
+#item-19{
+    background-color: green;
+}
+#item-30{
+    background-color: green;
+}
+#item-31{
+    background-color: green;
+}
+#item-32{
+    background-color: green;
+}
+#item-33{
+    background-color: green;
+}
+#item-8{
+    background:lightskyblue;
+    
+}
+#item-7{
+    background:lightskyblue;
+    
+}
+#item-10{
+    background:lightskyblue;
+    
+}
+#item-13{
+    background:lightskyblue;
+    
+}
+#item-16{
+    background:lightskyblue;
+    
+}
+#item-47{
+    background: yellow;
+
+}
+#item-36{
+    background: yellow;
+
+}
+#item-37{
+    background: yellow;
+
+}
+#item-35{
+    background: yellow;
+
+}
+#item-34{
+    background: yellow;
+
+}
+#item-59{
+    background: red;
+}
+#item-60{
+    background: red;
+}
+#item-57{
+    background: red;
+}
+#item-54{
+    background: red;
+}
+#item-51{
+    background: red;
+}
+#item-29{
+    /* grid-column: 6/1 span; */
+    padding: 15px;
+}
+#item-39{
+    /* grid-column: 6/1 span; */
+    padding: 15px;
+}
+#item-50{
+    /* grid-column: 6/1 span; */
+    padding: 15px;
+}
+#item-53{
+    /* grid-column: 6/1 span; */
+    padding: 15px;
+}
+#item-56{
+    /* grid-column: 6/1 span; */
+    padding: 15px;
+}
+#item-59{
+    /* grid-column: 6/1 span; */
+    padding: 15px;
+}
+#item-63{
+    /* grid-column: 6/1 span; */
+    padding: 15px;
+}
+
+ #item-5{
+     grid-column: 9/5 span; 
+    grid-row: 1/5 span;
+    background:lightskyblue;
+} 
+#item-23{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: blueviolet;
+    font-size: xx-large;
+
+    grid-column: 6/3 span;
+    /* padding: 20px; */
+    /* height: 50px; */
+    grid-row: 6/3 span;
+}
+#item-49{
+    background: red;
+    grid-column: 1/5 span;
+    grid-row: 9/5 span;
+    padding: 80px;
+}
+#item-61{
+    background: yellow;
+    grid-column: 9/5 span;
+    grid-row: 9/5 span;
+}
